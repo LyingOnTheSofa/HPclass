@@ -23,3 +23,6 @@ SetUp.bat用于获取权限将osk文件改为cmd控制台（在课前运行）,�
 
 
 别问我为什么不能explorer打开资源管理器，因为打不开: (
+
+
+如果没有联网需求的，可以在课前打开Unnet.bat断网（不要嘲笑我的人机文件名），运行Net.bat可恢复（同样的，TaskAllowed.bat可单独打开任务管理器，TaskUnallowed.bat再次禁用）
